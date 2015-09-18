@@ -1,0 +1,35 @@
+flasky-test
+©À©¤©¤ app
+©¦   ©À©¤©¤ auth
+©¦   ©¦   ©À©¤©¤ forms.py
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©À©¤©¤ views.py
+©¦   ©À©¤©¤ decorators.py
+©¦   ©À©¤©¤ email.py
+©¦   ©À©¤©¤ __init__.py
+©¦   ©À©¤©¤ main
+©¦   ©¦   ©À©¤©¤ errors.py
+©¦   ©¦   ©À©¤©¤ forms.py
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©À©¤©¤ views.py
+©¦   ©À©¤©¤ models.py
+©¦   ©À©¤©¤ static
+©¦   ©¦   ©À©¤©¤ bootstrap.min.css
+©¦   ©¦   ©À©¤©¤ favicon.ico
+©¦   ©¦   ©¸©¤©¤ styles.css
+©¦   ©¸©¤©¤ templates
+©¦       ©À©¤©¤ 403.html
+©¦       ©À   ...
+©¦           
+©¦                      
+©À©¤©¤ config.ini
+©À©¤©¤ config.py
+©À©¤©¤ manage.py
+©À©¤©¤ requirements
+©¦   ©À©¤©¤ common.txt
+©¦   ©À©¤©¤ dev.txt
+©¦   ©¸©¤©¤ prod.txt
+©¸©¤©¤ tests
+    ©À©¤©¤ __init__.py
+    ©À©¤©¤ test_basics.py
+    ©¸©¤©¤ test_user_model.py

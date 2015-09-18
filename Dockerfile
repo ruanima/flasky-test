@@ -14,4 +14,5 @@ ADD . /src
 EXPOSE  5000
  
 # Run
+CMD ["python", "/src/manage.py", "db", "upgrade"]
 CMD ["python", "/src/manage.py", "runserver"]
