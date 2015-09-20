@@ -15,4 +15,4 @@ EXPOSE  5000
  
 # Run
 CMD ["python", "/src/manage.py", "db", "upgrade"]
-CMD ["python", "/src/manage.py", "runserver"]
+CMD ["python", "/src/manage.py", "runserver", "--host", "0.0.0.0"]
