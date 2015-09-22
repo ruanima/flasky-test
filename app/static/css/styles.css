@@ -18,6 +18,13 @@ ul.posts li.post {
 ul.posts li.post:hover {
     background-color: #f0f0f0;
 }
+
+div.navbar {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #0F2E46;
+}
 div.post-date {
     float: right;
 }

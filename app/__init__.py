@@ -1,9 +1,9 @@
 # coding:utf-8
 
 from flask import Flask
-from flask.ext.bootstrap import Bootstrap
+from flask.ext.bootstrap import Bootstrap #提供客户端框架
 from flask.ext.mail import Mail
-from flask.ext.moment import Moment
+from flask.ext.moment import Moment #处理协调世界时间
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
 from flask.ext.pagedown import PageDown
@@ -14,8 +14,8 @@ mail = Mail()
 moment = Moment()
 db = SQLAlchemy()
 pagedown = PageDown()
-
 login_manager = LoginManager()
+
 login_manager.session_protection = 'strong'
 login_manager.login_view = 'auth.login'
 
@@ -28,8 +28,8 @@ def create_app(config_name):
     mail.init_app(app)
     moment.init_app(app)
     db.init_app(app)
-    login_manager.init_app(app)
     pagedown.init_app(app)
+    login_manager.init_app(app)
 
     # 附加路由和自定义的错误页面
     from .main import main as main_blueprint
